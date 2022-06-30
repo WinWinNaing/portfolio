@@ -875,9 +875,9 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
+/* body {
     webkit-tap-highlight-color: #1ee2e7;
-}
+} */
 
 .contact-social-icons p {
     color: #154c79;
