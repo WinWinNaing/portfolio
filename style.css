@@ -423,7 +423,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: #51bfda57;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -964,4 +964,30 @@ img::-moz-selection {
     to {
         opacity: 1;
     }
+}
+
+.img-responsive{
+    height: 230px;
+}
+
+.service-box{
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 10px 10px 5px #aaaaaa96;
+}
+
+.aboutList{
+    /* display: flex; */
+    list-style: none;
+}
+
+.aboutPd{
+    padding: 85px 20px;
+}
+
+.img-res{
+    width: 100%;
+    height: auto;
 }
