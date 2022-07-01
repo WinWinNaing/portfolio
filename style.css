@@ -30,7 +30,7 @@ body {
 }
 
 .text-primary {
-    color: #1ee2e7;
+    color: #51bfda57;
 }
 
 p {
@@ -187,7 +187,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    /* background-color: #222; */
 }
 
 .navbar-default .navbar-brand {
@@ -207,8 +207,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #1ee2e7;
-    background-color: #1ee2e7;
+    border-color: #1e81b0;
+    background-color: #1e81b0;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -217,7 +217,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #1ee2e7;
+    background-color: #1e81b0;
 }
 
 .navbar-default .nav li a {
@@ -309,7 +309,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     /* text-transform: uppercase; */
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 500;
     /* line-height: 30px; */
 }
@@ -916,13 +916,18 @@ img::-moz-selection {
   .waviy .textAni {
     position: relative;
     display: inline-block;
-    font-size: 40px;
+    font-size: 26px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))
   }
+@media(min-width:768px) {
+  .waviy .textAni {
+    font-size: 40px;
+  }
+}   
   @keyframes flip {
     0%,80% {
       transform: rotateY(360deg) 
@@ -975,7 +980,7 @@ img::-moz-selection {
     background-color: #fff;
     margin-top: 30px;
     border-radius: 20px;
-    padding: 15px;
+    padding: 50px 15px;
     box-shadow: 10px 10px 5px #aaaaaa96;
 }
 
@@ -986,6 +991,13 @@ img::-moz-selection {
 
 .aboutPd{
     padding: 85px 20px;
+}
+
+@media(max-width:768px) {
+    .aboutPd{
+        padding: 45px 0px;
+    }
+    
 }
 
 .img-res{
@@ -1009,7 +1021,7 @@ img::-moz-selection {
     height: 40px;
     justify-content: center;
     padding: 10px;
-    text-decoration: none;
+    text-decoration: none !important;
     width: 40px;
     margin-right: 15px;
 }
@@ -1017,6 +1029,23 @@ img::-moz-selection {
 .linkLogo i{
     color:#154c79;
     font-size: 20px;
+}
+
+@media(max-width:768px) {
+    .sociladiv{
+        position: absolute;
+        right: 0;
+        bottom: 50px;
+    }
+    .linkLogo{
+        margin-right: 5px;
+        width: 35px;
+        height: 35px;
+    }
+    .linkLogo i{
+        font-size: 15px;
+    }
+    
 }
 .aboutTitle{
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
