@@ -11,7 +11,7 @@ $(function() {
         //Set the File URL.
         console.log('getCV click');
         var url = "files/WinWinNiang-resume.pdf";
-    
+        var fileName = "WinWinNiang-resume.pdf";
         $.ajax({
             url: url,
             cache: false,
